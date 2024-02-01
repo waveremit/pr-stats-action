@@ -1,0 +1,41 @@
+{
+  "slack": {
+    "logs": {
+      "notConfigured": "Slack integration is disabled. No webhook or channel configured.",
+      "posting": "Post a Slack message with params: {{params}}",
+      "success": "Successfully posted to slack"
+    },
+    "errors": {
+      "requestFailed": "Error posting Slack message: {{error}}"
+    }
+  },
+  "teams": {
+    "logs": {
+      "notConfigured": "Microsoft Teams integration is disabled. No webhook configured.",
+      "posting": "Post a MS Teams message with params: {{params}}",
+      "success": "Successfully posted to MS Teams"
+    },
+    "errors": {
+      "requestFailed": "Error posting MS Teams message: {{error}}"
+    }
+  },
+  "webhook": {
+    "logs": {
+      "notConfigured": "Webhook integration is disabled.",
+      "posting": "Post a Slack message with params: {{params}}",
+      "success": "Successfully posted to slack"
+    },
+    "errors": {
+      "requestFailed": "Error posting Webhook: {{error}}"
+    }
+  },
+  "summary": {
+    "logs": {
+      "posting": "Post action summary: {{content}}",
+      "success": "Successfully posted to action summary"
+    },
+    "errors": {
+      "writeFailed": "Error posting action summary: {{error}}"
+    }
+  }
+}

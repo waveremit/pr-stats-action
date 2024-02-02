@@ -35,7 +35,7 @@ Just add this action to one of your [workflow files](https://docs.github.com/en/
 
 ```yml
       - name: Run pull request stats
-        uses: flowwer-dev/pull-request-stats@master
+        uses: waveremit/pr-stats-action@main
 ```
 
 ### Action inputs

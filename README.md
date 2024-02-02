@@ -87,7 +87,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run pull request stats
-        uses: flowwer-dev/pull-request-stats@master
+        uses: waveremit/pr-stats-action@main
 ```
 
 This config will:
@@ -123,7 +123,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run pull request stats
-        uses: flowwer-dev/pull-request-stats@master
+        uses: waveremit/pr-stats-action@main
         with:
           token: ${{ secrets.ADD_A_PERSONAL_ACCESS_TOKEN }}
           organization: 'piedpiper'
@@ -193,7 +193,7 @@ Check the guide for the tool you want to integrate:
         pull-requests: write
       steps:
         - name: Run pull request stats
-          uses: flowwer-dev/pull-request-stats@master
+          uses: waveremit/pr-stats-action@main
   ```
 </details>
 
